@@ -10,3 +10,4 @@ function calculateFactorial(n) {
     
     return factorial;
 }
+
