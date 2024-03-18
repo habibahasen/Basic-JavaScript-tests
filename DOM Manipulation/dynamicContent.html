@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Content Creation</title>
+</head>
+<body>
+    <div id="dynamicContent"></div>
+    <script>
+        let dynamicContentDiv = document.getElementById("dynamicContent");
+        let messages = ["1. “You have to believe in yourself when no one else does.” —Serena Williams", "2. “When you have a dream, you’ve got to grab it and never let go.” —Carol Burnett", "3. “Spread love everywhere you go. Let no one ever come without leaving happier.” —Mother Teresa", "4. “Be yourself; everyone else is already taken.” —Oscar Wilde", "5. “You’ve got to be in it to win it.” —Tony Robbins"];
+        
+        messages.forEach(function(message) {
+            let paragraph = document.createElement("p");
+            paragraph.textContent = message;
+            dynamicContentDiv.appendChild(paragraph);
+        });
+    </script>
+</body>
+</html>
