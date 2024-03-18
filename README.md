@@ -1,3 +1,3 @@
 # Basic-JavaScript-tests
 
-This is where I store all test codes!
+This is where I place all test codes!
